@@ -1,3 +1,4 @@
+import Button from "./Button";
 import Logo from "./Logo";
 import NavBar from "./NavBar";
 
@@ -6,8 +7,7 @@ const Header = () => {
     <header className="bg-blue-100 px-2 py-4 flex justify-between">
       <Logo />
       <NavBar />
-      {/* ButtonMore */}
-      <button className="button-style inline-block md:hidden">...</button>
+      <Button name="..." isMoreButton={true} />
     </header>
   );
 };
